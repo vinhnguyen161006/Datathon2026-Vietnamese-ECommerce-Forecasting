@@ -4,7 +4,7 @@
 
 **Nộp bài:**
 - **GitHub (repo này):** Code, notebooks, báo cáo LaTeX, submission.csv
-- **Kaggle:** [Datathon 2026 Round 1](https://www.kaggle.com/competitions/datathon-2026-round-1) — best public score: **808,731 MAE**
+- **Kaggle:** [Datathon 2026 Round 1](https://www.kaggle.com/competitions/datathon-2026-round-1) 
 
 ---
 
@@ -139,21 +139,7 @@ python scripts/generate_shap.py
 
 ---
 
-## 5. KẾT QUẢ
-
-| Cấu hình | Kaggle MAE |
-|---|---|
-| LGBM 100% (không Prophet) | ~900,000 |
-| LGBM 75% + Prophet 25% | 877,300 |
-| LGBM 80% + Prophet 20% | **864,405** ✓ |
-| Prophet làm feature LGBM | ~864,567 |
-| Sample weighting exp | 891,021 |
-
-**Best submission:** `outputs/submission.csv` — MAE **864,405**
-
----
-
-## 6. BÁO CÁO KỸ THUẬT
+## 5. BÁO CÁO KỸ THUẬT
 
 Xem `reports/main.tex` (hoặc compile ra PDF bằng Overleaf) — NeurIPS 2025 format, 4 trang, bao gồm:
 - Bảng feature engineering đầy đủ
