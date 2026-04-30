@@ -1,0 +1,24 @@
+# ── Kaggle raw data (too large + data policy) ────────────────────
+
+# ── Model artifacts (regenerate with train_final.py) ─────────────
+outputs/*.pkl
+
+# ── Internal / competition notes ─────────────────────────────────
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ── OS / editor ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+
+# ── IDE / tool config ─────────────────────────────────────────────
+.claude
+.vscode
+CLAUDE.md
+SCORING_CRITERIA.txt
+.venv
+
