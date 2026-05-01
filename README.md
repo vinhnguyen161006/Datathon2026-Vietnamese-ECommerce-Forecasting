@@ -24,8 +24,8 @@ Cuộc thi gồm 3 phần:
 ```
 vinuiDatathon/
 ├── data/
-│   ├── raw/               # 14 file CSV gốc từ Kaggle (không commit — xem mục 4)
-│   └── processed/         # Parquet cache tự động sinh ra (không commit)
+│   ├── raw/               # 14 file CSV gốc từ Kaggle
+│   └── processed/         # Parquet cache tự động sinh ra
 ├── notebooks/
 │   ├── 00_executive_summary.ipynb   # KPI dashboard + chiến lược tổng thể
 │   ├── 01_data_quality_check.ipynb  # Kiểm tra schema, null, FK
